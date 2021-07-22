@@ -5,7 +5,7 @@ import os
 from ..config import Config
 from ..tools.text import TEXT
 from ..database.database import *
-from pyrogram import Client as DMX renamer, filters
+from pyrogram import Client as RenamerNS, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
