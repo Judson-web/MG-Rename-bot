@@ -22,9 +22,9 @@ class TEXT:
 
 ** Developer:** {bot_owner}
 
-** Channel:** [here](https://t.me/dmx_all)
+** Channel:** [here](https://t.me/MG_MEDIA)
 
-** Group:** [here](https://t.me/dmx_chating)
+** Group:** [here](https://t.me/MGMOVIEGRAM)
 
 
 """
