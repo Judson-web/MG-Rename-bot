@@ -11,7 +11,7 @@ Please Give a ⭐ if you like this repo and also try following me for more best 
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xxxtentacion-TG/DMX-Rename-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template= https://github.com/xxxtentacion-TG/MG-Rename-bot)
 
 ## Bot Features 🔥
 - Renaming Telegram files as file or video.
