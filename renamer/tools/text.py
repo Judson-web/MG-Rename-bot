@@ -41,7 +41,7 @@ For source code check about
 
     START_TEXT = """Hi {user_mention},
 
-I am a telegram renamer with permanent thumbnail. ONLY FOR DMX GROUP
+I am a telegram renamer with permanent thumbnail. ONLY FOR MGMOVIEGRAM GROUP
 
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 𝖧𝖾𝗅𝗉.
 
