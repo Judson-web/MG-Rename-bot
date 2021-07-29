@@ -3,7 +3,7 @@ from pyrogram.emoji import *
 class TEXT:
     DOWNLOAD_START = f"iam downloading your file just wait ☺️{SLEEPING_FACE}"
     UPLOAD_START = f"iam trying to upload your file ☺️{SLEEPING_FACE}"
-    UPLOAD_SUCESS = f"Thanks for using [my dev](https://t.me/basildmx)"
+    UPLOAD_SUCESS = f"Thanks for using [my dev](https://t.me/XXXTENTACION_OF_TG)"
     BANNED_USER_TEXT = f"Hey bro, you are **banned** from using me {FACE_WITH_TEARS_OF_JOY}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format `/login bot_password`"
     SAVED_CUSTOM_THUMBNAIL = f"Thumbnail Saved Permanently {NOTEBOOK_WITH_DECORATIVE_COVER}"
