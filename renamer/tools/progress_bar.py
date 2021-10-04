@@ -25,13 +25,13 @@ async def progress_bar(current, total, status_msg, start, msg):
         current_message = f"""**{status_msg}** {round(percentage, 2)}%
 {progressbar}
 
-{HOLLOW_RED_CIRCLE} **Speed**: {humanbytes(speed)}/s
+{HOLLOW_RED_CIRCLE} **🚀Speed**: {humanbytes(speed)}/s
 
-{HOLLOW_RED_CIRCLE} **Done**: {humanbytes(current)}
+{HOLLOW_RED_CIRCLE} **Done✅**: {humanbytes(current)}
 
-{HOLLOW_RED_CIRCLE} **Size**: {humanbytes(total)}
+{HOLLOW_RED_CIRCLE} **📁Size**: {humanbytes(total)}
 
-{HOLLOW_RED_CIRCLE} **Time Left**: {time_to_complete}"""
+{HOLLOW_RED_CIRCLE} **⌚️Time Left**: {time_to_complete}"""
         try:
             await msg.edit(text=current_message)
         except:
