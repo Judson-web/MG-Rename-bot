@@ -35,7 +35,7 @@ async def media(c, m):
         if time_gap:
             return
 
-    file_name = await c.ask(chat_id=m.from_user.id, text="Send me the New FileName for this file or send /cancel to stop", filters=filters.text)
+    file_name = await c.ask(chat_id=m.from_user.id, text="Bruh Send me the New FileName for this file or send /cancel to stop🤓", filters=filters.text)
     await file_name.delete()
     await file_name.request.delete()
     new_file_name = file_name.text
@@ -78,7 +78,7 @@ async def media(c, m):
         logger.error(e)
         await send_message.edit(f"**Error:** {e}")
         if trace_msg:
-            await trace_msg.edit(f'**User Name:** {m.from_user.mention(style="md")}\n\n**User Id:** `{m.from_user.id}`\n\n**New File Name:** `{new_file_name}`\n\n**Status:** Failed\n\nCheck logs for error')
+            await trace_msg.edit(f'**Payyante User Name:** {m.from_user.mention(style="md")}\n\n**Payyante User Id:** `{m.from_user.id}`\n\n**New File Name:** `{new_file_name}`\n\n**Status:** Failed\n\nCheck logs for error')
         return
 
     new_file_location = f"{download_location}{new_file_name}"
