@@ -45,7 +45,7 @@ class TEXT:
 
  An Telegram File Rename Bot.
     
-    You can rename any type of file or media with permanent thumbnail support.
+    You can't rename any files or vedios from this bot.
 
 Go to /help and learn more 
 
