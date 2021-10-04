@@ -14,10 +14,10 @@ from pyrogram.emoji import *
 @RenamerNs.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(c, m, cb=False):
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} 𝙃𝙤𝙢𝙚🏡', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} 𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
+        InlineKeyboardButton(f' 𝙃𝙤𝙢𝙚🏡', callback_data='back'),
+        InlineKeyboardButton(f' 𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} 𝘊𝘭𝘰𝘴𝘦🖤', callback_data='close')
+        InlineKeyboardButton(f' 𝘊𝘭𝘰𝘴𝘦🖤', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -42,11 +42,11 @@ async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
     owner_username = owner.username if owner.username else 'Ns_bot_updates'
     button = [[
-        InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} 👑⊕ωηεr😎', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'{ROBOT} 𝘈𝘣𝘰𝘶𝘵🤓', callback_data='about')
+        InlineKeyboardButton(f' 👑⊕ωηεr😎', url=f'https://t.me/{owner_username}'),
+        InlineKeyboardButton(f' 𝘈𝘣𝘰𝘶𝘵🤓', callback_data='about')
         ],[
-        InlineKeyboardButton(f'{INFORMATION} ᕼᗴᒪᑭ🥺', callback_data="help"),
-        InlineKeyboardButton(f'{NO_ENTRY} 𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
+        InlineKeyboardButton(f' ᕼᗴᒪᑭ🥺', callback_data="help"),
+        InlineKeyboardButton(f' 𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -72,10 +72,10 @@ async def about(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
 
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} 𝙃𝙤𝙢𝙚🏡', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} 𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
+        InlineKeyboardButton(f' 𝙃𝙤𝙢𝙚🏡', callback_data='back'),
+        InlineKeyboardButton(f' 𝔇𝔬𝔫𝔞𝔱𝔢😊', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} 𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
+        InlineKeyboardButton(f' 𝘊𝘭𝘰𝘴𝘦🖤', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
