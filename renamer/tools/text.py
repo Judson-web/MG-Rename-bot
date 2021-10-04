@@ -41,7 +41,7 @@ class TEXT:
  Feedback [౮คɱƿɿՐ૯ қɿՈ૭ 👑 #𝚂𝙴𝙳](https://t.me/VAMPIRE_KING_NO_1) If You Found Meh Useful
 """
 
-    START_TEXT = """Hi {user_mention}, I am ***[𝙎𝙖𝙞𝙩𝙖𝙢𝙖](https://t.me/MH_RenamePrivate_bot)***
+    START_TEXT = """Hi {user_mention}, I am [***𝙎𝙖𝙞𝙩𝙖𝙢𝙖***](https://t.me/MH_RenamePrivate_bot)
 
  An Telegram File Rename Bot.
     
