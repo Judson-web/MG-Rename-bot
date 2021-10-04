@@ -45,7 +45,7 @@ class TEXT:
 
  An Telegram File Rename Bot.
     
-    You can't rename any files or vedios from this bot.
+    Dear You can rename any files or vedios from this bot.
 
 Go to /help and learn more 
 
