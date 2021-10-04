@@ -14,24 +14,24 @@ class TEXT:
 
     ABOUT = """**𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 :**
 
-** My Name:** {bot_name}
+** 🤖Name:** {bot_name}
     
-** Language:** [Python 3](https://www.python.org/)
+** 📝Language:** [Python 3](https://www.python.org/)
 
-** FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
+** 😉FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-** Developer:** {bot_owner}
+** 😎Developer:** {bot_owner}
 
-** Source Code:** 🔐
+** 📃Source Code:** 🔐
 
-** Channel:** [here](https://t.me/storytimeoG)
+** 📢Channel:** [here](https://t.me/storytimeoG)
 
-** Group:** [here](https://t.me/storytym)
+** 👥Group:** [here](https://t.me/storytym)
 
 
 """
 
-    HELP_USER = """**Follow Below Steps:**
+    HELP_USER = """**Bruh Follow Below Steps:**
    
 ☞︎︎︎ Use /mode command to change upload mode.
 ☞︎︎︎ Send a photo to set as permanent thumbnail.
