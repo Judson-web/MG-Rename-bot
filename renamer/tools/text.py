@@ -22,6 +22,8 @@ class TEXT:
 
 ** Developer:** {bot_owner}
 
+** Source Code:** 🔐
+
 ** Channel:** [here](https://t.me/storytimeoG)
 
 ** Group:** [here](https://t.me/storytym)
@@ -36,7 +38,7 @@ class TEXT:
 ☞︎︎︎ Now send me the Telegram file you want to rename.
 ☞︎︎︎ Send the new name when bot ask.
 
- Feedback @VAMPIRE_KING_NO_1 If You Found Meh Useful
+ Feedback [౮คɱƿɿՐ૯ қɿՈ૭ 👑 #𝚂𝙴𝙳](https://t.me/VAMPIRE_KING_NO_1) If You Found Meh Useful
 """
 
     START_TEXT = """Hi {user_mention}, I am
